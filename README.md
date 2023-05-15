@@ -144,10 +144,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more info.
 <div>Icons made by <a href="https://www.fnfdesk.com" title="FNFDESK">FNFDESK</a> from <a href="https://www.fnfdesk.com/" title="FNFDESK">www.fnfdesk.com</a></div>
 
 
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/lakinduakash/linux-wifi-hotspot.svg)](https://starchart.cc/lakinduakash/linux-wifi-hotspot)
-
 
 ## License
 FreeBSD
@@ -159,4 +155,3 @@ Copyright (c) 2021, lakinduakash
 Copyright (c) 2023, Dragonfly
 
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flakinduakash%2Flinux-wifi-hotspot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flakinduakash%2Flinux-wifi-hotspot?ref=badge_large)

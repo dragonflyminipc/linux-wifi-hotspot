@@ -54,7 +54,7 @@ Download the debian package from latest [release](https://github.com/dragonflymi
 
 ```bash
 # For ubuntu only
-sudo add-apt-repository ppa:lakinduakash/lwh
+sudo add-apt-repository ppa:dragonflyminipc/lwh
 sudo apt install linux-wifi-hotspot
 
 ```

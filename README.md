@@ -127,13 +127,15 @@ or using the terminal with:
     wihotspot
 
 ## Run on Startup
-The `wihotspot` GUI uses `create_ap` to create and manage access points. This service and core logic was originally created by
-[@oblique](http://github.com/oblique), and are now maintained in this
-repository.
-
+The `wihotspot` GUI uses `create_ap` to create and manage access points. 
 Start the hotspot service on startup (using your saved configuration) with:
 
     systemctl enable create_ap
+    
+## Disabled
+The `wihotspot` GUI uses `create_ap` to disabled and manage access points. It still untested:
+
+    systemctl disable create_ap
 
 ## Contributing
 

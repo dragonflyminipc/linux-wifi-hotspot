@@ -137,6 +137,8 @@ Start the hotspot service on startup (using your saved configuration) with:
 
     systemctl enable create_ap    
     create_ap -m bridge wlan0 eth0 MyAccessPoint MyPassPhrase
+    create_ap wlan0 wlan0 MyAccessPoint MyPassPhrase
+    systemctl start create_ap
     
 ## Disabled
 The `wihotspot` GUI uses `create_ap` to disabled and manage access points. It still untested:

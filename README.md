@@ -55,6 +55,8 @@ Download the debian package from latest [release](https://github.com/dragonflymi
 ```bash
 # For ubuntu only
 sudo add-apt-repository ppa:dragonflyminipc/lwh
+OR
+sudo add-apt-repository ppa:lakinduakash/lwh
 sudo apt install linux-wifi-hotspot
 
 ```
@@ -130,7 +132,11 @@ or using the terminal with:
 The `wihotspot` GUI uses `create_ap` to create and manage access points. 
 Start the hotspot service on startup (using your saved configuration) with:
 
-    systemctl enable create_ap
+    cd linux-wifi-hotspot/src/scripts
+    make install
+
+    systemctl enable create_ap    
+    create_ap -m bridge wlan0 eth0 MyAccessPoint MyPassPhrase
     
 ## Disabled
 The `wihotspot` GUI uses `create_ap` to disabled and manage access points. It still untested:
